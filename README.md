@@ -1,4 +1,4 @@
-# ICEN Web 🍦
+# ICEN Web 🍦 (just open ICENWEB.html after extracting)
 
 **ICEN** is a visually engaging, modern web project designed to showcase a fictional ice cream brand. Built with a focus on creativity, user experience, and animation, this project is part of my personal learning journey in web development using **HTML** , **CSS** and **Javascript** (although it shows 100%CSS which is not true heh)
 
