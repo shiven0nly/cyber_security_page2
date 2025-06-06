@@ -17,7 +17,7 @@ body {
     position: relative;
     top: 100px;
     border-radius: 20px;
-    box-shadow: 0 4px 24px 3px rgba(0, 255, 100, 0.3);
+    box-shadow: 0 4px 24px 3px rgba(0, 255, 100, 0.5);
     animation: fadeslide 1.0s;
 }
 
@@ -111,4 +111,19 @@ a {
     justify-content: center;
     align-self: flex-end;
     margin: 13px auto;
+}
+
+
+.herofooter {
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    background: linear-gradient(to top, #23351e 0%, rgba(2, 92, 255, 0.342) 60%, rgba(0, 0, 0, 0) 100%);
+    animation: fadeslide 1.6s ease-in-out;
+    z-index: 10;
 }
