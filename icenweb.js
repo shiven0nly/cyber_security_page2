@@ -16,10 +16,6 @@ document.getElementById('email').addEventListener('keydown', function (e) {
     }
 });
 
-document.getElementById('signin').addEventListener('click', function() {
-    alert('Sign in Successful!');
-    window.location.href = 'icenweb2.html';
-});
 
 document.addEventListener('DOMContentLoaded', function () {
     var signin = document.querySelector('.btn-demo');
