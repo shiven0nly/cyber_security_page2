@@ -222,6 +222,20 @@
      align-items: center;
      min-height: 60vh;
      padding: 40px 0;
+     animation: appear linear;
+     animation-timeline: view();
+     animation-range: entry 0%, cover 50%;
+ }
+ 
+ @keyframes appear{
+            from{
+                opacity: 0%;
+                scale: 0;
+            }
+            to{
+                opacity: 1;
+                scale: 1;
+            }
  }
 
  .services {
@@ -305,7 +319,11 @@
      border-radius: 15px;
      box-shadow: 0 0 8px 1px rgb(225, 225, 225);
      max-width: 90vw;
+     animation: appear linear;
+     animation-timeline: view();
+     animation-range: entry 0%, cover 50%;
  }
+ 
 
  .img1 img {
      border-radius: 15px;
@@ -327,7 +345,11 @@
      min-height: 60vh;
      width: 100vw;
      justify-content: center;
+     animation: appear linear;
+     animation-timeline: view();
+     animation-range: entry 0%, cover 50%;
  }
+ 
 
  .parent {
      background: #000;
