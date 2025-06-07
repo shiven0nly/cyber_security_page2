@@ -1,6 +1,6 @@
-# ICEN Web 🍦 (just open ICENWEB.html after extracting)
+# ICEN Web 💻 (just open ICENWEB.html after extracting)
 
-**ICEN** is a visually engaging, modern web project designed to showcase a fictional ice cream brand. Built with a focus on creativity, user experience, and animation, this project is part of my personal learning journey in web development using **HTML** , **CSS** and **Javascript** :: and M "WORKING TO MAKE IT RESPONSIVE"
+**ICEN** is a visually engaging, modern web project designed to showcase a fictional cyber security site. Built with a focus on creativity, user experience, and animation, this project is part of my personal learning journey in web development using **HTML** , **CSS** and **Javascript** :: and M "WORKING TO MAKE IT RESPONSIVE"
 
 ## 🔥 Features
 - **Excecpt 'Try for Free btn' in all other buttons , i gave hover, slidin animations, and 'CLICK' On them to check it out more 
