@@ -30,7 +30,7 @@
 ---
 # Here are some somescreenshots: 
 ![Screenshot 2025-06-07 081852](https://github.com/user-attachments/assets/7ee13948-c486-4a3f-9022-49b861d10a9d)
-![Screenshot 2025-06-07 081923](https://github.com/user-attachments/assets/fb612c0b-9dad-4868-a655-36ce25efd0cd)
+![Screenshot 2025-06-07 082305](https://github.com/user-attachments/assets/95b8f2cf-098f-4993-8eb9-9f370d8a9095)
 ![Screenshot 2025-06-07 081810](https://github.com/user-attachments/assets/42c82cb9-1ca8-449d-b6db-dd729992e359)
 
 
