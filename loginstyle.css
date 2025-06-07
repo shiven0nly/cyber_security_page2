@@ -1,0 +1,129 @@
+body {
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+}
+
+.hero {
+    height: 450px;
+    width: 420px;
+    margin: 20px auto 5px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 100px;
+    border-radius: 20px;
+    box-shadow: 0 4px 24px 3px rgba(0, 255, 100, 0.5);
+    animation: fadeslide 1.0s;
+}
+
+@keyframes fadeslide {
+    from {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.name {
+    font-family: 'Inter';
+    font-size: 40px;
+    font-weight: 700;
+    background: linear-gradient(to bottom, #0814f4e7, #09e1f0, hsl(39, 90%, 54%));
+    background-clip: text;
+    color: transparent;
+    font-style: italic;
+    margin: 5px auto;
+    display: flex;
+    position: relative;
+    top: -20px;
+}
+
+#email,
+#password {
+    height: 40px;
+    width: 300px;
+    font-family: 'Inter';
+    color: antiquewhite;
+    font-size: 18px;
+    background-color: transparent;
+    border-radius: 30px;
+    box-shadow: 0 2px 12px 2px rgb(91, 96, 192);
+    border: none;
+    padding: 5px;
+    margin: 20px auto 0 auto;
+    display: block;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#password:hover{
+    transform: scale(1.01);
+    box-shadow: 0 0 2px #7f6ee0;
+    transition: 0.4s ease-in-out;
+}
+
+#email:hover {
+    transform: scale(1.01);
+    box-shadow: 0 0 2px #7f6ee0;
+    transition: 0.4s ease-in-out;
+}
+
+
+#signin {
+    border: none;
+    background: linear-gradient(90deg, #0814f4e7, #09e1f0);
+    color: white;
+    font-family: 'Inter';
+    display: block;
+    margin: 10px auto 0 auto;
+    font-size: 20px;
+    background-color: transparent;
+    box-shadow: 0 0.35px 3px #09e1f0;
+    border-radius: 20px;
+    height: 30px;
+    width: 100px;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+
+#signin:hover{
+    transition: 0.4s ease-in-out;
+    transform: scale(1.01);
+    box-shadow: 0px 0px 1px 1px #09e1f0;
+}
+
+a {
+    text-decoration-style: none;
+    text-decoration: none;
+    color: beige;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-self: flex-end;
+    margin: 13px auto;
+}
+
+
+.herofooter {
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    background: linear-gradient(to top, #23351e 0%, rgba(2, 92, 255, 0.342) 60%, rgba(0, 0, 0, 0) 100%);
+    animation: fadeslide 1.6s ease-in-out;
+    z-index: 10;
+}
