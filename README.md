@@ -3,7 +3,7 @@
 **ICEN** is a visually engaging, modern web project designed to showcase a fictional cyber security site. Built with a focus on creativity, user experience, and animation, this project is part of my personal learning journey in web development using **HTML** , **CSS** and **Javascript** :: and M "WORKING TO MAKE IT RESPONSIVE"
 
 ## 🐞 things to keep in mind
-- If u click on learn more button on ICENWEB.html , then a paragraph box will generate and its , buggy because if u open too late or too early u will stuck then **just reload again**!
+- If u click on learn more button on ICENWEB.html , then a paragraph box will generate and its , buggy because if u open too late or too early u will stuck then **just reload again**! (**if anyone has solution then please solve it!**)
 - Now, when u click on Login a new page will generate , it wont store ur data yet because no backend, just click on sign in , pop up generate and click 'OK' , it will redirect to u the other page , not now React now that's why i made multi page to showcase the HTML,CSS,JS project i made.. heh
 
 
